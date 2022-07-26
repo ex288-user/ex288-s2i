@@ -16,7 +16,7 @@ DATE=(date=+%F)
 
 echo "---> Configuring Info Page"
 echo "Print built on $DATE) >> ./info.html
-echo "Amki insent, sed on light"
+echo "Amki insent, sed on light to world"
 
 
 ######## CUSTOMIZATION ENDS HERE ############
