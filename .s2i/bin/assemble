@@ -10,10 +10,10 @@ config_s2i
 
 
 ######## CUSTOMIZATION STARTS HERE ############
-cp -Rf /tmp/src/*.html ./
+cp -Rf /tmp/src/*.html /opt/app-root/src
 DATE=$(date +%Y-%m-%d)
-echo "Page built on $DATE" >> ./info.html
-echo "Amki insent, sed on light" >> ./info.html
+echo "Page built on $DATE" >> /opt/app-root/src/info.html
+echo "Amki insent, sed on light" >> /opt/app-root/src/info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
