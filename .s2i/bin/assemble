@@ -11,10 +11,10 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 cp -Rf /tmp/src/*.html ./
-echo "umber omini hotel" >> index.html
-echo "Information Page" >> info.html
+echo "umber omini hotel" >> /opt/app-root/src/index.html
+echo "Information Page" >> /opt/app-root/src/info.html
 DATE=$(date +%F)
-echo "date $DATE" >> info.html
+echo "date $DATE" >> /opt/app-root/src/info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
